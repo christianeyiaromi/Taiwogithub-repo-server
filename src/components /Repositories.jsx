@@ -34,9 +34,7 @@ const Repositories = () => {
   const Repo = user.map((item) => {
     return (
       <div key={item.name} className="repo-container">
-        <Link>
-          <h1>{item.name}</h1>
-        </Link>
+        <h1>{item.name}</h1>
         <p>{item.visibility}</p>
       </div>
     );
